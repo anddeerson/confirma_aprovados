@@ -22,7 +22,7 @@ def extract_approved_names_from_pdf(pdf_file):
     return {normalize_name(name) for name in matches}
 
 # Configuração da interface
-st.title("Comparador de Alunos Aprovados")
+st.title("Busca alunos aprovados versão 0.5")
 st.write("Carregue um arquivo CSV com os nomes dos alunos e um ou mais PDFs com as listas de aprovados.")
 
 # Upload dos arquivos
